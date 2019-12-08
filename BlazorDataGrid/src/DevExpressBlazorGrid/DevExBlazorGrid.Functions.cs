@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Windows.Forms;
 using ZeraSystems.CodeNanite.Expansion;
 using ZeraSystems.CodeStencil.Contracts;
 
@@ -25,7 +24,7 @@ namespace ZeraSystems.DevExpress.Grid
         private void MainFunction()
         {
             var settings = GetExpansionString("GRID_SETTINGS");
-            
+
             if (!settings.IsBlank())
             {
                 var items = settings.Split(new string[] { "\n", "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
@@ -43,11 +42,13 @@ namespace ZeraSystems.DevExpress.Grid
             AppendText(("<EjsGrid " + DataSourceSettings() + ">"));
 
             if (_sortColumns.Any() && ConfigValue("AllowSorting"))
+            {
                 AppendText(General.Wrap2TagLevels(GridSortColumn(indent * 3), "GridSortSettings", "GridSortColumns", indent + 4));
+            }
 
-            AppendText(GridEditSettings(indent ));
+            AppendText(GridEditSettings(indent));
             AppendText(EjsDataManager(indent));
-            AppendText(General.Wrap1TagLevel(GridColumn(indent*2), "GridColumns", indent ));
+            AppendText(General.Wrap1TagLevel(GridColumn(indent * 2), "GridColumns", indent));
             AppendText("</EjsGrid>");
             #endregion
 
@@ -121,7 +122,7 @@ namespace ZeraSystems.DevExpress.Grid
         private string EjsDataManager(int indent, bool setEditSettings = true)
         {
             BuildSnippet(null);
-            var result = General.SetValue("Url", "/api/"+_table) + General.SetValue("Adaptor", "Adaptors.WebApiAdaptor");
+            var result = General.SetValue("Url", "/api/" + _table) + General.SetValue("Adaptor", "Adaptors.WebApiAdaptor");
             result = General.CreateRow("EjsDataManager", result, indent);
             return result;
         }
@@ -131,31 +132,37 @@ namespace ZeraSystems.DevExpress.Grid
         {
             //var result = SetValue("DataSource","@GridData");
             var result = General.SetValue("@ref", "@Grid");
-            result += General.SetValue("TValue",_table);
-            result += General.SetValue("Toolbar", "@(new List<string> {"+
-                                                  "Add".AddQuotes()+","+
-                                                  "Edit".AddQuotes()+","+
-                                                  "Delete".AddQuotes()+","+
-                                                  "Update".AddQuotes()+","+
-                                                  "Cancel".AddQuotes()+" })");
+            result += General.SetValue("TValue", _table);
+            result += General.SetValue("Toolbar", "@(new List<string> {" +
+                                                  "Add".AddQuotes() + "," +
+                                                  "Edit".AddQuotes() + "," +
+                                                  "Delete".AddQuotes() + "," +
+                                                  "Update".AddQuotes() + "," +
+                                                  "Cancel".AddQuotes() + " })");
 
             if (setSettings)
             {
                 BuildSnippet(null);
-                
+
                 //Use Context Menu
                 if (ConfigValue("UseContextMenu"))
+                {
                     result += ContextMenuString();
+                }
 
                 //Use GridLines
                 if (ConfigValue("UseGridLines"))
-                    result += General.SetValue("GridLines","GridLine.Both");
+                {
+                    result += General.SetValue("GridLines", "GridLine.Both");
+                }
 
                 //Use Grouping
                 if (ConfigValue("AllowGrouping"))
+                {
                     result += General.SetValue("AllowGrouping");
+                }
 
-                result = (result + General.SetValue("AllowPaging")); 
+                result = (result + General.SetValue("AllowPaging"));
             }
             return result;
         }
@@ -175,7 +182,9 @@ namespace ZeraSystems.DevExpress.Grid
             {
                 value = value.ToLower();
                 if (value == "yes" || value == "true" || value == "1")
+                {
                     result = true;
+                }
             }
             return result;
         }
