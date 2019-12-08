@@ -83,13 +83,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DevExBlazorGridMenu.Functions.cs" />
+    <Compile Include="DevExBlazorGrid.Functions.cs">
+      <DependentUpon>DevExBlazorGrid.cs</DependentUpon>
+    </Compile>
     <Compile Include="DevExBlazorGridMenu.cs" />
     <Compile Include="DevExBlazorGrid.Extensions.cs" />
+    <Compile Include="DevExBlazorGridMenu.Functions.cs">
+      <DependentUpon>DevExBlazorGridMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="General.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DevExBlazorGrid.cs" />
-    <Compile Include="DevExBlazorGrid.Functions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
