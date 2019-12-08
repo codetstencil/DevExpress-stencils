@@ -1,0 +1,12 @@
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\build\ZeraSystems.Syncfusion.Core.dll
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\build\ZeraSystems.Syncfusion.Core.pdb
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\src\SyncfusionCore\obj\Debug\SyncfusionCore.csprojAssemblyReference.cache
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\src\SyncfusionCore\obj\Debug\ZeraSystems.Syncfusion.Core.dll
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\src\SyncfusionCore\obj\Debug\ZeraSystems.Syncfusion.Core.pdb
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\src\SyncfusionCore\obj\Debug\SyncfusionCore.csproj.CopyComplete
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\build\ZeraSystems.Syncfusion.Core.dll
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\build\ZeraSystems.Syncfusion.Core.pdb
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\src\SyncfusionCore\obj\Debug\SyncfusionCore.csprojAssemblyReference.cache
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\src\SyncfusionCore\obj\Debug\SyncfusionCore.csproj.CopyComplete
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\src\SyncfusionCore\obj\Debug\ZeraSystems.Syncfusion.Core.dll
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\src\SyncfusionCore\obj\Debug\ZeraSystems.Syncfusion.Core.pdb

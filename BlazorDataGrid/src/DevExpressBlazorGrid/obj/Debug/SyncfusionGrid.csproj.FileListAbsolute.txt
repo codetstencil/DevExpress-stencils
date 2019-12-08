@@ -1,0 +1,14 @@
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\build\ZeraSystems.Syncfusion.Grid.dll.config
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\build\ZeraSystems.Syncfusion.Grid.dll
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\build\ZeraSystems.Syncfusion.Grid.pdb
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\src\SyncfusionGrid\obj\Debug\SyncfusionGrid.csprojAssemblyReference.cache
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\src\SyncfusionGrid\obj\Debug\SyncfusionGrid.csproj.CopyComplete
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\src\SyncfusionGrid\obj\Debug\ZeraSystems.Syncfusion.Grid.dll
+D:\projects-desktop\codestencil\custom-stencils\SyncFusion\DataGrid\src\SyncfusionGrid\obj\Debug\ZeraSystems.Syncfusion.Grid.pdb
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\build\ZeraSystems.Syncfusion.Grid.dll.config
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\build\ZeraSystems.Syncfusion.Grid.dll
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\build\ZeraSystems.Syncfusion.Grid.pdb
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\src\SyncfusionGrid\obj\Debug\SyncfusionGrid.csprojAssemblyReference.cache
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\src\SyncfusionGrid\obj\Debug\SyncfusionGrid.csproj.CopyComplete
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\src\SyncfusionGrid\obj\Debug\ZeraSystems.Syncfusion.Grid.dll
+D:\projects-desktop\codestencil\custom-stencils\Syncfusion\Blazor-DataGrid\src\SyncfusionGrid\obj\Debug\ZeraSystems.Syncfusion.Grid.pdb

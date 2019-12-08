@@ -1,0 +1,12 @@
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\Blazor-DataGrid\build\ZeraSystems.DevExpressBlazor.Core.dll
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\Blazor-DataGrid\build\ZeraSystems.DevExpressBlazor.Core.pdb
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\Blazor-DataGrid\src\DevExpressBlazorCore\obj\Debug\DevExpressBlazorCore.csprojAssemblyReference.cache
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\Blazor-DataGrid\src\DevExpressBlazorCore\obj\Debug\DevExpressBlazorCore.csproj.CopyComplete
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\Blazor-DataGrid\src\DevExpressBlazorCore\obj\Debug\ZeraSystems.DevExpressBlazor.Core.dll
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\Blazor-DataGrid\src\DevExpressBlazorCore\obj\Debug\ZeraSystems.DevExpressBlazor.Core.pdb
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\BlazorDataGrid\build\ZeraSystems.DevExpressBlazor.Core.dll
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\BlazorDataGrid\build\ZeraSystems.DevExpressBlazor.Core.pdb
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\BlazorDataGrid\src\DevExpressBlazorCore\obj\Debug\DevExpressBlazorCore.csprojAssemblyReference.cache
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\BlazorDataGrid\src\DevExpressBlazorCore\obj\Debug\DevExpressBlazorCore.csproj.CopyComplete
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\BlazorDataGrid\src\DevExpressBlazorCore\obj\Debug\ZeraSystems.DevExpressBlazor.Core.dll
+D:\projects-desktop\codestencil\custom-stencils\DevExpress\BlazorDataGrid\src\DevExpressBlazorCore\obj\Debug\ZeraSystems.DevExpressBlazor.Core.pdb
